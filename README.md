@@ -14,7 +14,7 @@ Required python libraries:
   - keras - https://www.tutorialspoint.com/keras/keras_installation.htm
   - tensorflow - https://www.tensorflow.org/install/pip
   
-After installation, run the train_model you would like to test with, included are Random Forest (train_model_RF), Linear SVR (train_model_LSVR), and Neural Network (train_model_TF). Check the output name of the model `model.save('vehicle_value_model.h5)`. Navigate to use_model.py and change the input for line 9 (`model = joblib.load(<your train model here>)`) to the model that you would like to test against. 
+After installation, run the train_model you would like to test with, included are Random Forest (train_model_RF.py), Linear SVR (train_model_LSVR.py), and Neural Network (train_model_TF.py). Check the output name of the model `model.save('vehicle_value_model.h5)`. Navigate to use_model.py and change the input for line 9 (`model = joblib.load(<your train model here>)`) to the model that you would like to test against. 
 
 # Running the tests
 Run the use_model and the UI will load with several input forms, input the year, make, model, condition, title status, transmission, and odometer reading of the vehicle you would like to test.
