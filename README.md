@@ -17,7 +17,7 @@ Required python libraries:
 After installation, run the train_model you would like to test with. Check the output name of the model `model.save('vehicle_value_model.h5)`. Navigate to use_model.py and change the input for line 9 (`model = joblib.load(<your train model here>)`) to the model that you would like to test against. 
 
 # Running the tests
-Run the use_model and input the Year, Make, Model, Condition, Title Status, Transmission, and Odometer reading of the vehicle you would like to test.
+Run the use_model and the UI will load with several input forms, input the Year, Make, Model, Condition, Title Status, Transmission, and Odometer reading of the vehicle you would like to test.
 - Year: any integer value (1950 - 2019 for best results)
 - Make: Most common makes are included int the training data, if you are unsure open the vehicles.csv and see if that make is included.
 - Model: Most common models are included in the training data, if you are unsure open the vehicles.csv and see if that model is included.
