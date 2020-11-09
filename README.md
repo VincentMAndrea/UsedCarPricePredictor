@@ -18,13 +18,13 @@ After installation, run the train_model you would like to test with. Check the o
 
 # Running the tests
 Run the use_model and input the Year, Make, Model, Condition, Title Status, Transmission, and Odometer reading of the vehicle you would like to test.
-Year: any integer value (1950 - 2019 for best results)
-Make: Case sensitive
-Model: Most common models are included in the training data, if you are unsure open the .csv and see if that model is included.
-Condtion: Ordinal value (fair, good, excellent, like new)
-Status: Categorical value (missing, rebuilt, salvage, clean)
-Transmission Type: manual/automatic
-Odometer: integer (in miles)
+- Year: any integer value (1950 - 2019 for best results)
+- Make: Case sensitive
+- Model: Most common models are included in the training data, if you are unsure open the .csv and see if that model is included.
+- Condtion: Ordinal value (fair, good, excellent, like new)
+- Status: Categorical value (missing, rebuilt, salvage, clean)
+- Transmission Type: manual/automatic
+- Odometer: integer (in miles)
 
 # Authors
  - Vincent Andrea
