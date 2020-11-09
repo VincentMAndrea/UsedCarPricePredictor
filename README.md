@@ -1,11 +1,12 @@
 # UsedCarPricePredictor
 A Python application which can use a variety of ML techniques to predict the value of a vehicle based on several criteria.
 
-# Installing
+# Prerequisites
 Requires Python - https://www.python.org/downloads/release/python-390/
   - Navigate to the version that suits you and complete the installation using the wizard.
   
-Recommended python libraries:
+# Installing  
+Required python libraries:
   - pandas - `pip install pandas`
   - sklearn - `pip install sklearn`
   - joblib - `pip install joblib`
